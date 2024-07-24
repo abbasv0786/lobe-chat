@@ -1,15 +1,17 @@
 # Conversation API Implementation Logic
 
-The implementation of LobeChat's large model AI mainly relies on OpenAI's API, including the core conversation API on the backend and the integrated API on the frontend. Next, we will introduce the implementation approach and code for the backend and frontend separately.
+The implementation of IntellectX Chat's large model AI mainly relies on OpenAI's API, including the core conversation API on the backend and the integrated API on the frontend. Next, we will introduce the implementation approach and code for the backend and frontend separately.
 
 #### TOC
 
-- [Backend Implementation](#backend-implementation)
-  - [Core Conversation API](#core-conversation-api)
-  - [Conversation Result Processing](#conversation-result-processing)
-- [Frontend Implementation](#frontend-implementation)
-  - [Frontend Integration](#frontend-integration)
-  - [Using Streaming to Get Results](#using-streaming-to-get-results)
+- [Conversation API Implementation Logic](#conversation-api-implementation-logic)
+      - [TOC](#toc)
+  - [Backend Implementation](#backend-implementation)
+    - [Core Conversation API](#core-conversation-api)
+    - [Conversation Result Processing](#conversation-result-processing)
+  - [Frontend Implementation](#frontend-implementation)
+    - [Frontend Integration](#frontend-integration)
+    - [Using Streaming to Get Results](#using-streaming-to-get-results)
 
 ## Backend Implementation
 
@@ -133,4 +135,4 @@ export const fetchSSE = async (fetchFn: () => Promise<Response>, options: FetchS
 };
 ```
 
-The above is the core implementation of the LobeChat session API. With an understanding of these core codes, further expansion and optimization of LobeChat's AI functionality can be achieved.
+The above is the core implementation of the IntellectX Chat session API. With an understanding of these core codes, further expansion and optimization of IntellectX Chat's AI functionality can be achieved.

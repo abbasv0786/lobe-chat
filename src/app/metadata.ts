@@ -4,7 +4,7 @@ import { appEnv, getAppConfig } from '@/config/app';
 import { OFFICIAL_URL, OG_URL } from '@/const/url';
 import { translation } from '@/server/translation';
 
-const title = 'LobeChat';
+const title = 'IntellectX Chat';
 
 const { SITE_URL = OFFICIAL_URL } = getAppConfig();
 const BASE_PATH = appEnv.NEXT_PUBLIC_BASE_PATH;
@@ -24,7 +24,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     icons: {
       apple: '/apple-touch-icon.png?v=1',
       icon: '/favicon.ico?v=1',
-      shortcut: '/favicon-32x32.ico?v=1',
+      shortcut: '/favicon-32x32.png?v=1',
     },
     manifest: noManifest ? undefined : '/manifest.json',
     metadataBase: new URL(SITE_URL),
@@ -46,7 +46,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     },
     title: {
       default: t('chat.title'),
-      template: '%s · LobeChat',
+      template: '%s · IntellectX Chat',
     },
     twitter: {
       card: 'summary_large_image',

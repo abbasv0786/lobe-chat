@@ -1,6 +1,14 @@
 {
   "about": "Sobre",
   "advanceSettings": "Configurações avançadas",
+  "alert": {
+    "cloud": {
+      "action": "Experimente de graça",
+      "desc": "Oferecemos {{credit}} pontos de computação gratuitos para todos os usuários registrados, sem necessidade de configuração complicada, pronto para uso, suporta histórico de conversas ilimitado e sincronização em nuvem global. Mais recursos avançados esperam por você para explorar.",
+      "descOnMobile": "Oferecemos {{credit}} créditos de computação gratuitos para todos os usuários registrados, sem necessidade de configurações complicadas, pronto para uso.",
+      "title": "Bem-vindo para experimentar {{name}}"
+    }
+  },
   "appInitializing": "Inicializando o aplicativo, por favor, aguarde...",
   "autoGenerate": "Auto completar",
   "autoGenerateTooltip": "Auto completar descrição do assistente com base em sugestões",
@@ -44,7 +52,7 @@
     "and": "e",
     "feedback": {
       "action": "Compartilhar feedback",
-      "desc": "Cada uma de suas ideias e sugestões é extremamente valiosa para nós. Mal podemos esperar para saber o que você pensa! Sinta-se à vontade para entrar em contato conosco para fornecer feedback sobre os recursos do produto e a experiência de uso, ajudando-nos a tornar o LobeChat ainda melhor.",
+      "desc": "Cada uma de suas ideias e sugestões é extremamente valiosa para nós. Mal podemos esperar para saber o que você pensa! Sinta-se à vontade para entrar em contato conosco para fornecer feedback sobre os recursos do produto e a experiência de uso, ajudando-nos a tornar o IntellectX Chat ainda melhor.",
       "title": "Compartilhe seu valioso feedback no GitHub"
     },
     "later": "Mais tarde",
@@ -191,9 +199,9 @@
   "telemetry": {
     "allow": "Permitir",
     "deny": "Negar",
-    "desc": "Queremos coletar anonimamente suas informações de uso para nos ajudar a melhorar o LobeChat e oferecer uma experiência de produto melhor para você. Você pode desativar a qualquer momento em Configurações - Sobre.",
+    "desc": "Queremos coletar anonimamente suas informações de uso para nos ajudar a melhorar o IntellectX Chat e oferecer uma experiência de produto melhor para você. Você pode desativar a qualquer momento em Configurações - Sobre.",
     "learnMore": "Saiba mais",
-    "title": "Ajude o LobeChat a melhorar"
+    "title": "Ajude o IntellectX Chat a melhorar"
   },
   "temp": "Temporário",
   "terms": "Termos de Serviço",
@@ -206,6 +214,7 @@
   "userPanel": {
     "anonymousNickName": "Usuário Anônimo",
     "billing": "Gerenciamento de faturas",
+    "cloud": "Experimente {{name}}",
     "data": "Armazenamento de dados",
     "defaultNickname": "Usuário da Comunidade",
     "discord": "Suporte da Comunidade",

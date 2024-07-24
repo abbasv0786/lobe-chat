@@ -1,6 +1,14 @@
 {
   "about": "Giới thiệu",
   "advanceSettings": "Cài đặt nâng cao",
+  "alert": {
+    "cloud": {
+      "action": "Trải nghiệm miễn phí",
+      "desc": "Chúng tôi cung cấp {{credit}} điểm tính toán miễn phí cho tất cả người dùng đăng ký, không cần cấu hình phức tạp, sẵn sàng sử dụng ngay, hỗ trợ lưu trữ vô hạn lịch sử trò chuyện và đồng bộ toàn cầu, cùng nhiều tính năng cao cấp khác đang chờ bạn khám phá.",
+      "descOnMobile": "Chúng tôi cung cấp {{credit}} điểm tính toán miễn phí cho tất cả người dùng đăng ký, không cần cấu hình phức tạp, sẵn sàng sử dụng ngay.",
+      "title": "Chào mừng bạn trải nghiệm {{name}}"
+    }
+  },
   "appInitializing": "Ứng dụng đang khởi động, vui lòng chờ...",
   "autoGenerate": "Tự động tạo",
   "autoGenerateTooltip": "Tự động hoàn thành mô tả trợ lý dựa trên từ gợi ý",
@@ -44,7 +52,7 @@
     "and": "và",
     "feedback": {
       "action": "Chia sẻ phản hồi",
-      "desc": "Mỗi ý tưởng và đề xuất của bạn đều rất quý giá đối với chúng tôi, chúng tôi rất mong muốn biết ý kiến của bạn! Hãy liên hệ với chúng tôi để cung cấp phản hồi về tính năng và trải nghiệm sử dụng sản phẩm, giúp chúng tôi phát triển LobeChat tốt hơn.",
+      "desc": "Mỗi ý tưởng và đề xuất của bạn đều rất quý giá đối với chúng tôi, chúng tôi rất mong muốn biết ý kiến của bạn! Hãy liên hệ với chúng tôi để cung cấp phản hồi về tính năng và trải nghiệm sử dụng sản phẩm, giúp chúng tôi phát triển IntellectX Chat tốt hơn.",
       "title": "Chia sẻ phản hồi quý báu của bạn trên GitHub"
     },
     "later": "Sau",
@@ -191,9 +199,9 @@
   "telemetry": {
     "allow": "Cho phép",
     "deny": "Từ chối",
-    "desc": "Chúng tôi muốn thu thập thông tin về cách bạn sử dụng một cách ẩn danh để giúp chúng tôi cải thiện LobeChat và cung cấp trải nghiệm sản phẩm tốt hơn cho bạn. Bạn có thể tắt tính năng này bất kỳ lúc nào trong \"Cài đặt\" - \"Về\".",
+    "desc": "Chúng tôi muốn thu thập thông tin về cách bạn sử dụng một cách ẩn danh để giúp chúng tôi cải thiện IntellectX Chat và cung cấp trải nghiệm sản phẩm tốt hơn cho bạn. Bạn có thể tắt tính năng này bất kỳ lúc nào trong \"Cài đặt\" - \"Về\".",
     "learnMore": "Tìm hiểu thêm",
-    "title": "Hỗ trợ LobeChat hoạt động tốt hơn"
+    "title": "Hỗ trợ IntellectX Chat hoạt động tốt hơn"
   },
   "temp": "Tạm thời",
   "terms": "Điều khoản dịch vụ",
@@ -206,6 +214,7 @@
   "userPanel": {
     "anonymousNickName": "Người dùng ẩn danh",
     "billing": "Quản lý hóa đơn",
+    "cloud": "Trải nghiệm {{name}}",
     "data": "Lưu trữ dữ liệu",
     "defaultNickname": "Người dùng phiên bản cộng đồng",
     "discord": "Hỗ trợ cộng đồng",

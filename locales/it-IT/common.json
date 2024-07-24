@@ -1,6 +1,14 @@
 {
   "about": "Informazioni",
   "advanceSettings": "Impostazioni avanzate",
+  "alert": {
+    "cloud": {
+      "action": "Provalo gratuitamente",
+      "desc": "Abbiamo fornito a tutti gli utenti registrati {{credit}} crediti di calcolo gratuiti, senza la necessità di configurazioni complesse, pronto all'uso, supporta la cronologia delle conversazioni illimitata e la sincronizzazione cloud globale. Ci sono molte altre funzionalità avanzate che ti aspettano da scoprire.",
+      "descOnMobile": "Offriamo a tutti gli utenti registrati {{credit}} crediti di calcolo gratuiti, pronti all'uso senza configurazioni complesse.",
+      "title": "Benvenuto a {{name}}"
+    }
+  },
   "appInitializing": "Inizializzazione dell'app in corso, attendere pazientemente...",
   "autoGenerate": "Generazione automatica",
   "autoGenerateTooltip": "Completamento automatico basato su suggerimenti",
@@ -44,7 +52,7 @@
     "and": "e",
     "feedback": {
       "action": "Condividi feedback",
-      "desc": "Ogni tua idea e suggerimento è prezioso per noi, non vediamo l'ora di conoscere la tua opinione! Contattaci per fornire feedback sulle funzionalità del prodotto e sull'esperienza utente, aiutandoci a migliorare LobeChat.",
+      "desc": "Ogni tua idea e suggerimento è prezioso per noi, non vediamo l'ora di conoscere la tua opinione! Contattaci per fornire feedback sulle funzionalità del prodotto e sull'esperienza utente, aiutandoci a migliorare IntellectX Chatt.",
       "title": "Condividi il tuo prezioso feedback su GitHub"
     },
     "later": "Più tardi",
@@ -191,9 +199,9 @@
   "telemetry": {
     "allow": "Consenti",
     "deny": "Rifiuta",
-    "desc": "Speriamo di acquisire in modo anonimo le tue informazioni sull'uso per aiutarci a migliorare LobeChat e offrirti un'esperienza prodotto migliore. Puoi disattivarlo in qualsiasi momento in Impostazioni - Informazioni su.",
+    "desc": "Speriamo di acquisire in modo anonimo le tue informazioni sull'uso per aiutarci a migliorare IntellectX Chatt e offrirti un'esperienza prodotto migliore. Puoi disattivarlo in qualsiasi momento in Impostazioni - Informazioni su.",
     "learnMore": "Ulteriori informazioni",
-    "title": "Aiuta LobeChat a migliorare"
+    "title": "Aiuta IntellectX Chatt a migliorare"
   },
   "temp": "Temporaneo",
   "terms": "Termini di servizio",
@@ -206,6 +214,7 @@
   "userPanel": {
     "anonymousNickName": "Utente Anonimo",
     "billing": "Gestione fatturazione",
+    "cloud": "Prova {{name}}",
     "data": "Archiviazione dati",
     "defaultNickname": "Utente Community",
     "discord": "Supporto della community",

@@ -1,6 +1,6 @@
 # 目录架构
 
-LobeChat 的文件夹目录架构如下：
+IntellectX Chat 的文件夹目录架构如下：
 
 ```bash
 src

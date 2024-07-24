@@ -1,33 +1,33 @@
-'use client';
+// 'use client';
 
-import { Icon } from '@lobehub/ui';
-import { createStyles } from 'antd-style';
-import { MessageSquareHeart } from 'lucide-react';
-import Link from 'next/link';
-import { PropsWithChildren, memo, useState } from 'react';
-import { useTranslation } from 'react-i18next';
-import { Center, Flexbox } from 'react-layout-kit';
+// import { Icon } from '@lobehub/ui';
+// import { createStyles } from 'antd-style';
+// import { MessageSquareHeart } from 'lucide-react';
+// import Link from 'next/link';
+import { PropsWithChildren, memo } from 'react';
+// import { useTranslation } from 'react-i18next';
+// import { Center, Flexbox } from 'react-layout-kit';
 
-import GuideModal from '@/components/GuideModal';
-import GuideVideo from '@/components/GuideVideo';
-import { GITHUB, GITHUB_ISSUES } from '@/const/url';
-import { isOnServerSide } from '@/utils/env';
+// import GuideModal from '@/components/GuideModal';
+// import GuideVideo from '@/components/GuideVideo';
+// import { GITHUB, GITHUB_ISSUES } from '@/const/url';
+// import { isOnServerSide } from '@/utils/env';
 
-const useStyles = createStyles(
-  ({ css, token }) => css`
-    font-size: 12px;
-    color: ${token.colorTextSecondary};
-  `,
-);
+// const useStyles = createStyles(
+//   ({ css, token }) => css`
+//     font-size: 12px;
+//     color: ${token.colorTextSecondary};
+//   `,
+// );
 
 const Footer = memo<PropsWithChildren>(() => {
-  const { t } = useTranslation('common');
-  const [openStar, setOpenStar] = useState(false);
-  const [openFeedback, setOpenFeedback] = useState(false);
-  const { styles } = useStyles();
+  // const { t } = useTranslation('common');
+  // const [openStar, setOpenStar] = useState(false);
+  // const [openFeedback, setOpenFeedback] = useState(false);
+  // const { styles } = useStyles();
   return (
-    <>
-      <Flexbox flex={1} justify={'flex-end'}>
+    <div>
+      {/* <Flexbox flex={1} justify={'flex-end'}>
         <Center
           as={'footer'}
           className={styles}
@@ -88,8 +88,8 @@ const Footer = memo<PropsWithChildren>(() => {
         }}
         open={openFeedback}
         title={t('footer.feedback.title')}
-      />
-    </>
+      /> */}
+    </div>
   );
 });
 

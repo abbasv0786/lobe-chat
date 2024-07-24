@@ -1,7 +1,7 @@
 'use client';
 
 import { ActionIcon, MobileNavBar } from '@lobehub/ui';
-import { LobeChat } from '@lobehub/ui/brand';
+// import { IntellectXChat } from '@/components/brand';
 import { MessageSquarePlus } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { memo } from 'react';
@@ -24,7 +24,8 @@ const Header = memo(() => {
       left={
         <Flexbox align={'center'} gap={8} horizontal style={{ marginLeft: 8 }}>
           <UserAvatar onClick={() => router.push('/me')} size={32} />
-          <LobeChat type={'text'} />
+          {/* <IntellectXChat type={'text'} /> */}
+          <strong style={{ fontSize: 20 }}>IntellectX Chat</strong>
           {enableWebrtc && <SyncStatusInspector placement={'bottom'} />}
         </Flexbox>
       }

@@ -123,7 +123,7 @@ const nextConfig = {
         ],
       },
       {
-        source: '/favicon-32x32.ico',
+        source: '/favicon-32x32.png',
         headers: [
           {
             key: 'Cache-Control',

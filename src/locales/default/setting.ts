@@ -12,7 +12,7 @@ export default {
   },
   analytics: {
     telemetry: {
-      desc: '通过选择发送遥测数据，你可以帮助我们改善 LobeChat 整体用户体验',
+      desc: '通过选择发送遥测数据，你可以帮助我们改善 IntellectX Chat 整体用户体验',
       title: '发送匿名使用数据',
     },
     title: '数据统计',
@@ -71,12 +71,12 @@ export default {
         },
         files: {
           extra:
-            '当前 LobeChat 的文件上传实现仅为一种 Hack 方案，仅限自行尝试。完整文件上传能力请等待后续实现',
+            '当前 IntellectX Chat 的文件上传实现仅为一种 Hack 方案，仅限自行尝试。完整文件上传能力请等待后续实现',
           title: '支持文件上传',
         },
         functionCall: {
           extra:
-            '此配置将仅开启 LobeChat 中的函数调用能力，是否支持函数调用完全取决于模型本身，请自行测试该模型的函数调用能力可用性',
+            '此配置将仅开启 IntellectX Chat 中的函数调用能力，是否支持函数调用完全取决于模型本身，请自行测试该模型的函数调用能力可用性',
           title: '支持函数调用',
         },
         id: {
@@ -91,7 +91,7 @@ export default {
         },
         vision: {
           extra:
-            '此配置将仅开启 LobeChat 中的图片上传配置，是否支持识别完全取决于模型本身，请自行测试该模型的视觉识别能力可用性',
+            '此配置将仅开启 IntellectX Chat 中的图片上传配置，是否支持识别完全取决于模型本身，请自行测试该模型的视觉识别能力可用性',
           title: '支持视觉识别',
         },
       },
@@ -212,13 +212,7 @@ export default {
       title: '单次回复限制',
     },
     model: {
-      desc: 'ChatGPT 模型',
-      list: {
-        'gpt-3.5-turbo': 'GPT 3.5',
-        'gpt-3.5-turbo-16k': 'GPT 3.5 (16K)',
-        'gpt-4': 'GPT 4',
-        'gpt-4-32k': 'GPT 4 (32K)',
-      },
+      desc: '{{provider}} 模型',
       title: '模型',
     },
     presencePenalty: {
@@ -348,7 +342,7 @@ export default {
       unknownOS: '未知系统',
     },
     warning: {
-      message: '本功能目前仍为实验性功能，可能存在预期外或不稳定的情况，如遇到问题请及时提交反馈。',
+      tip: '经过较长一段时间社区公测，WebRTC 同步可能无法稳定满足通用的数据同步诉求。请自行 <1>部署信令服务器</1> 后使用。',
     },
     webrtc: {
       channelName: {
@@ -364,9 +358,13 @@ export default {
       },
       desc: '实时、点对点的数据通信，需设备同时在线才可同步',
       enabled: {
-        invalid: '请填写同步频道名称后再开启',
-        // desc: 'WebRTC 将使用此名创建同步频道，确保频道名称唯一',
+        invalid: '请填写信令服务器和同步频道名称后再开启',
         title: '开启同步',
+      },
+      signaling: {
+        desc: 'WebRTC 将使用该地址进行同步',
+        placeholder: '请输入信令服务器地址',
+        title: '信令服务器',
       },
       title: 'WebRTC 同步',
     },
