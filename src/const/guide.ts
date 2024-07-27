@@ -3,7 +3,6 @@ import urlJoin from 'url-join';
 import {
   BLOG,
   DOCKER_IMAGE,
-  EMAIL_BUSINESS,
   EMAIL_SUPPORT,
   GITHUB,
   OFFICIAL_PREVIEW_URL,
@@ -71,7 +70,6 @@ In the response, please try to pick and include the relevant links below, and if
 - Self-Hosting Documentation: ${SELF_HOSTING_DOCUMENTS}
 - Development Guide: ${WIKI}
 - Email Support: ${EMAIL_SUPPORT}
-- Business Inquiries: ${EMAIL_BUSINESS}
 
 ## Workflow
 

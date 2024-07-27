@@ -1,7 +1,7 @@
 import urlJoin from 'url-join';
 
 import { getAppConfig } from '@/config/app';
-import { EMAIL_BUSINESS, EMAIL_SUPPORT, OFFICIAL_SITE, OFFICIAL_URL, X } from '@/const/url';
+import { EMAIL_SUPPORT, OFFICIAL_SITE, OFFICIAL_URL, X } from '@/const/url';
 
 import pkg from '../../package.json';
 
@@ -80,7 +80,6 @@ class Ld {
       },
       'description':
         'We are a group of e/acc design-engineers, hoping to provide modern design components and tools for AIGC, and creating a technology-driven forum, fostering knowledge interaction and the exchange of ideas that may culminate in mutual inspiration and collaborative innovation.',
-      'email': EMAIL_BUSINESS,
       'founders': [this.getAuthors(['arvinxx']), this.getAuthors(['canisminor'])],
       'image': urlJoin(OFFICIAL_SITE, '/icon-512x512.png'),
       'logo': {

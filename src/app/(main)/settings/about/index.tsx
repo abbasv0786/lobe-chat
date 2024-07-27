@@ -1,6 +1,6 @@
 'use client';
 
-import { SiDiscord, SiGithub, SiMedium, SiRss, SiX } from '@icons-pack/react-simple-icons';
+import {  SiGithub, SiX } from '@icons-pack/react-simple-icons';
 import { Form } from '@lobehub/ui';
 import { Divider } from 'antd';
 import { createStyles } from 'antd-style';
@@ -9,12 +9,8 @@ import { useTranslation } from 'react-i18next';
 import { Flexbox } from 'react-layout-kit';
 
 import {
-  BLOG,
-  DISCORD,
-  EMAIL_BUSINESS,
   EMAIL_SUPPORT,
   GITHUB,
-  MEDIDUM,
   OFFICIAL_SITE,
   PRIVACY_URL,
   TERMS_URL,
@@ -64,11 +60,6 @@ const Page = memo<{ mobile?: boolean }>(({ mobile }) => {
                 label: t('mail.support'),
                 value: 'support',
               },
-              {
-                href: mailTo(EMAIL_BUSINESS),
-                label: t('mail.business'),
-                value: 'business',
-              },
             ]}
           />
           <Divider style={{ marginBlock: 0 }} />
@@ -77,24 +68,14 @@ const Page = memo<{ mobile?: boolean }>(({ mobile }) => {
             ItemRender={ItemCard}
             grid
             items={[
-              {
-                href: BLOG,
-                icon: SiRss,
-                label: t('blog'),
-                value: 'blog',
-              },
+
               {
                 href: GITHUB,
                 icon: SiGithub,
                 label: 'GitHub',
                 value: 'feedback',
               },
-              {
-                href: DISCORD,
-                icon: SiDiscord,
-                label: 'Discord',
-                value: 'discord',
-              },
+             
               {
                 href: X,
                 icon: SiX as any,
@@ -102,12 +83,7 @@ const Page = memo<{ mobile?: boolean }>(({ mobile }) => {
                 value: 'x',
               },
 
-              {
-                href: MEDIDUM,
-                icon: SiMedium,
-                label: 'Medium',
-                value: 'medium',
-              },
+             
             ]}
           />
           <Divider style={{ marginBlock: 0 }} />
